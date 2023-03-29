@@ -1,0 +1,34 @@
+
+.calendar-container{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+   
+}
+.fc-event{
+    background: var(--orange-gradient)!important;
+    color: black;
+}
+.fc .fc-timegrid-slot{
+    height: 2.5rem!important;
+    color: black;
+}
+td{
+    border : 1px solid var(--grey)!important
+}
+@media screen and (max-width: 1200px) {
+    .AppGlassdach{
+      grid-template-columns: 10% 50% auto;
+      overflow-y: scroll;
+    } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .AppGlassdach{
+      grid-template-columns: 1fr;
+    } 
+  }
